@@ -18,6 +18,20 @@
 | 0x4    | Frozen            |
 | 0x8000 | With parachute    |
 
+### [9] Pipe
+| Flag    | Description      |
+|---------|------------------|
+| 0x20    | Direction: left  |
+| 0x40    | Direction: up    |
+| 0x40000 | Color: red       |
+| 0x80000 | Color: blue      |
+
+Pipe default color is green.  
+If both flags 0x40000 and 0x80000 are set, pipe color is yellow.  
+  
+Pipe default direction is right.  
+If both flags 0x20 and 0x40 are set, pipe direction is down.
+
 ### [20] Super Mushroom/Master Sword
 | Flag    | Description    |
 |---------|----------------|
@@ -30,6 +44,13 @@
 |---------|-------------------|
 | 0x2     | With wings        |
 | 0x4     | Superball Flower  |
+| 0x8000  | With parachute    |
+| 0x40000 | Mushroom modifier |
+
+### [44] Theme specific items (Big Mushroom/Super Leaf/Cape Feather/Propeller Mushroom/Super Bell)
+| Flag    | Description       |
+|---------|-------------------|
+| 0x2     | With wings        |
 | 0x8000  | With parachute    |
 | 0x40000 | Mushroom modifier |
 
@@ -48,6 +69,8 @@ Door pair ID also seems to be flags? Each door has +0x100000 (default door with 
 | 0x8000  | With parachute               |
 | 0x40000 | Value: 30                    |
 | 0x80000 | Value: 50                    |
+
+Big Coin default value is 10.
 
 ### [74] Spike/Spike Ball
 | Flag | Description |
