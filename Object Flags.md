@@ -2,6 +2,15 @@
 
 ## VERY INCOMPLETE
 
+### [0] Goomba-Galoomba/Goombrat-Goombud
+| Flag   | Description       |
+|--------|-------------------|
+| 0x2    | With wings        |
+| 0x4    | Goombrat-Goombud  |
+| 0x4000 | Giant             |
+| 0x8000 | With parachute    |
+
+
 ### [8] Coin/Frozen Coin
 | Flag   | Description       |
 |--------|-------------------|
