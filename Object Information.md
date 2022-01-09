@@ -50,6 +50,7 @@
 | 32  | Bull's-Eye Banzai        | Gizmos   | Super Mario Bros. / Super Mario Bros. 3 / Super Mario World / New Super Mario Bros. U / Super Mario 3D World |
 | 33  | 1-Up Mushroom            | Items    | Super Mario Bros. / Super Mario Bros. 3 / Super Mario World / New Super Mario Bros. U / Super Mario 3D World |
 | 34  | Fire Flower              | Items    | Super Mario Bros. / Super Mario Bros. 3 / Super Mario World / New Super Mario Bros. U / Super Mario 3D World |
+| 34  | Superball Flower         | Items    | Super Mario Bros.                                                                                            |
 | 35  | Super Star               | Items    | Super Mario Bros. / Super Mario Bros. 3 / Super Mario World / New Super Mario Bros. U / Super Mario 3D World |
 | 36  | Lava Lift                | Gizmos   | Super Mario Bros. / Super Mario Bros. 3 / Super Mario World / New Super Mario Bros. U                        |
 | 36  | Fast Lava Lift           | Gizmos   | Super Mario Bros. / Super Mario Bros. 3 / Super Mario World / New Super Mario Bros. U                        |

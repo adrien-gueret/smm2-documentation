@@ -25,6 +25,14 @@
 | 0x4     | Master Sword   |
 | 0x8000  | With parachute |
 
+### [34] Fire Flower/Superball Flower
+| Flag    | Description       |
+|---------|-------------------|
+| 0x2     | With wings        |
+| 0x4     | Superball Flower  |
+| 0x8000  | With parachute    |
+| 0x40000 | Mushroom modifier |
+
 ### [55] Warp Door
 | Flag    | Description |
 |---------|-------------|
