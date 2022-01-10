@@ -47,7 +47,7 @@ If both flags 0x20 and 0x40 are set, pipe direction is down.
 | 0x8000  | With parachute    |
 | 0x40000 | Mushroom modifier |
 
-### [44] Theme specific items (Big Mushroom/Super Leaf/Cape Feather/Propeller Mushroom/Super Bell)
+### [44] Style specific items (Big Mushroom/Super Leaf/Cape Feather/Propeller Mushroom/Super Bell)
 | Flag    | Description       |
 |---------|-------------------|
 | 0x2     | With wings        |
