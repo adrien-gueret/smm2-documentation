@@ -23,14 +23,13 @@
 |---------|------------------|
 | 0x20    | Direction: left  |
 | 0x40    | Direction: up    |
+| 0x60    | Direction: down  |
 | 0x40000 | Color: red       |
 | 0x80000 | Color: blue      |
+| 0xc0000 | Color: yellow    |
 
 Pipe default color is green.  
-If both flags 0x40000 and 0x80000 are set, pipe color is yellow.  
-  
 Pipe default direction is right.  
-If both flags 0x20 and 0x40 are set, pipe direction is down.
 
 ### [20] Super Mushroom/Master Sword
 | Flag    | Description    |
