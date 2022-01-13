@@ -27,7 +27,7 @@
 | 0x80     | Generate object  |
 | 0x40000  | Color: red       |
 | 0x80000  | Color: blue      |
-| 0xc0000  | Color: yellow    |
+| 0xC0000  | Color: yellow    |
 | 0x100000 | Wrap #1          |
 | 0x200000 | Wrap #2          |
 | 0x300000 | Wrap #3          |
@@ -37,7 +37,7 @@
 | 0x700000 | Wrap #7          |
 | 0x800000 | Wrap #8          |
 | 0x900000 | Wrap #9          |
-| 0xa00000 | Wrap #10         |
+| 0xA00000 | Wrap #10         |
 
 Pipe default color is green.  
 Pipe default direction is right.  
