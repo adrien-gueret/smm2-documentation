@@ -24,12 +24,14 @@
 | 0x20    | Direction: left  |
 | 0x40    | Direction: up    |
 | 0x60    | Direction: down  |
+| 0x80    | Generate object  |
 | 0x40000 | Color: red       |
 | 0x80000 | Color: blue      |
 | 0xc0000 | Color: yellow    |
 
 Pipe default color is green.  
 Pipe default direction is right.  
+If flag 0x80 is set, the corresponding generated object is the one having the same [Link ID](./Course%20Format.md#object) than this pipe.
 
 ### [20] Super Mushroom/Master Sword
 | Flag    | Description    |
