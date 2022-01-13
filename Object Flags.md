@@ -19,19 +19,30 @@
 | 0x8000 | With parachute    |
 
 ### [9] Pipe
-| Flag    | Description      |
-|---------|------------------|
-| 0x20    | Direction: left  |
-| 0x40    | Direction: up    |
-| 0x60    | Direction: down  |
-| 0x80    | Generate object  |
-| 0x40000 | Color: red       |
-| 0x80000 | Color: blue      |
-| 0xc0000 | Color: yellow    |
+| Flag     | Description      |
+|----------|------------------|
+| 0x20     | Direction: left  |
+| 0x40     | Direction: up    |
+| 0x60     | Direction: down  |
+| 0x80     | Generate object  |
+| 0x40000  | Color: red       |
+| 0x80000  | Color: blue      |
+| 0xc0000  | Color: yellow    |
+| 0x100000 | Wrap #1          |
+| 0x200000 | Wrap #2          |
+| 0x300000 | Wrap #3          |
+| 0x400000 | Wrap #4          |
+| 0x500000 | Wrap #5          |
+| 0x600000 | Wrap #6          |
+| 0x700000 | Wrap #7          |
+| 0x800000 | Wrap #8          |
+| 0x900000 | Wrap #9          |
+| 0xa00000 | Wrap #10         |
 
 Pipe default color is green.  
 Pipe default direction is right.  
-If flag 0x80 is set, the corresponding generated object is the one having the same [Link ID](./Course%20Format.md#object) than this pipe.
+If flag 0x80 is set, the corresponding generated object is the one having the same [Link ID](./Course%20Format.md#object) than this pipe.  
+Pipes sharing the same wrap flag between [main and sub areas](./Course%20Format.md#course-structure) are linked together (Mario can use them to go to the other area).
 
 ### [20] Super Mushroom/Master Sword
 | Flag    | Description    |
